@@ -32,5 +32,7 @@ Call the `Serialize` method, and then `SaveToFile`.
 
 ```cs
 mapWriter.Serialise();
-mapWriter.SaveToFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Superfighters Deluxe\\Maps\\Custom\\autogen.sfdm");
+mapWriter.SaveToFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)+ "\\Superfighters Deluxe\\Maps\\Custom\\autogen.sfdm");
 ```
+
+_Note: the map editor won't refresh automatically. Fastest way to refresh is to close and open the map edior._
