@@ -54,6 +54,11 @@ namespace MapWriter
             data.AddRange(dataBuilder.data);
         }
 
+        protected void Clear()
+        {
+            data.Clear();
+        }
+
         public void SaveToFile(string filename)
         {
             WriteString("EOF");

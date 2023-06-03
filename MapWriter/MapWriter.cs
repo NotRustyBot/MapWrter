@@ -32,6 +32,7 @@ namespace MapWriter
         }
 
         public void Serialise() {
+            Clear();
             Header();
         }
 
