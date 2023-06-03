@@ -36,7 +36,7 @@ namespace MapWriter
                     Rotation = (float)(angle + Math.PI / 2f)
                 });
             }
-            Imagify.FromImage("Mythologic.png", mapWriter, -16, -32);
+
             mapWriter.Serialise();
             mapWriter.SaveToFile(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\Superfighters Deluxe\\Maps\\Custom\\autogen.sfdm");
 
